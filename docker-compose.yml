@@ -1,0 +1,16 @@
+version: '3'
+
+
+services:
+  web:
+    build: ./server
+    # networks:
+    #   - nginx_NNET
+    ports:
+      - "4500:4500"
+
+
+
+# networks:
+#   nginx_NNET:
+#     external: true
